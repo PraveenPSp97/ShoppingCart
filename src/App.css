@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: rgb(253, 249, 249);
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +37,103 @@
   to {
     transform: rotate(360deg);
   }
+}
+.normal,.active{
+  border: none;
+  background-color: inherit;
+  opacity: 0.6;
+}
+.active{
+  /* background-color: #61dafb; */
+  opacity: 1;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.page{opacity: 0.8;}
+
+
+.pagination{
+  padding: 2rem,
+  
+  
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+  
+}
+
+.productCard{
+  height: 30vh;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f1f7f8;
+  padding: 1px;
+  padding-top: 5px;
+  margin: 1.5rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  /* margin: auto; */
+  text-align: center;
+
+}
+
+
+.productImg img{
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+.productImg {
+  max-height: 200px;
+  width: 200px;
+  object-fit: cover;
+  /* margin-top: 2px; */
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.productContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button{
+  width: 110px;
+  margin-right: 5px;
+ border: none;
+ border-radius: 5px;
+ height: 35px;
+  background-color: rgb(75, 192, 75);
+  color: #f4f4f4;
+}
+
+nav{
+  display: flex;
+  background-color: #9993da;
+}
+
+li {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding-top: 2px;
+  font-size: large;
+}
+ul{
+  list-style: none;
+}
+
+.cartButton{
+  background-color: #6195ff;
 }
